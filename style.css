@@ -1,0 +1,277 @@
+.contenedor1 {
+    /* Estilos para el contenedor */
+width: 600px; /* Ancho del contenedor */
+height: 500px; /* Altura del contenedor */
+display: flex; /* Activa el modelo de caja flexible */
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: white; /* Color de fondo */
+
+border-radius: 30px;
+box-shadow: 0 0 40px rgba(0, 0, 0, 0.3),
+            0 0 40px rgba(255, 255, 255, 0.3) inset;
+}
+
+.contenedor2 {
+    
+width: 300px; 
+height: 500px; 
+background-color: blue; 
+position: absolute;
+top: 50%;
+left:42%;
+transform: translate(-50%, -50%);
+margin: auto;border-radius: 15px;
+float: right;
+background-image: linear-gradient(to bottom, hsl(252, 100%, 67%),hsla(241, 72%, 46%, 0));
+border-radius: 30px;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.contenedor-circular{
+position: absolute;
+top: 40%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 200px;
+height: 200px;
+background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+border-radius: 50%;
+}
+
+.contenedor-circular h2 {
+font-family: 'Hanken Grotesk', sans-serif;
+font-size: 60px;
+font-weight: 800;
+color:white;
+margin-top: 40px;
+}
+
+#resultado {
+font-family: 'Hanken Grotesk', sans-serif;
+font-size: 19px;
+font-weight: 700;
+position: absolute;
+top: 30px;
+left: 50%;
+transform: translateX(-50%);
+color:hsl(241, 100%, 89%);
+}
+
+#porcentaje {
+font-family: 'Hanken Grotesk', sans-serif;
+font-size: 18px;
+font-weight: 500;
+position: absolute;
+top: 215px;
+left: 50%;
+transform: translateX(-50%);
+color:hsl(241, 100%, 89%);
+} 
+
+#great {
+font-family: 'Hanken Grotesk', sans-serif;
+font-size: 25px;
+font-weight: 700;
+position: absolute;
+top: 310px;
+left: 50%;
+transform: translateX(-50%);
+color:hsl(0, 0%, 100%)
+} 
+
+#scored {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    position: absolute;
+    top: 370px;
+    left: 50%;
+    transform: translateX(-50%);
+    color:hsl(241, 100%, 89%);
+    width: 85%; 
+    } 
+
+    #Summary {
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        position: absolute;
+        top: 236px;
+        left: 94%;
+        transform: translateX(-50%);
+        color:black;
+        width: 85%; 
+        } 
+
+
+
+#reaction img {
+margin-left: 15px;
+margin-top: 10px;        
+width: 6%;
+        height: 50%;
+        object-fit: cover;
+}
+
+
+#reaction {
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 330px;
+    width: 290px; /* Ancho del contenedor */
+height: 60px; /* Altura del contenedor */
+display: flex; 
+transform: translate(-50%, -50%);
+background-color:  hsl(0,100%, 95%);
+
+            border-radius: 10px;  
+   color: hsl(0, 100%, 67%);
+   font-family: 'Hanken Grotesk', sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+}
+
+#reactionp {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+#memory img {
+    margin-left: 15px;
+    margin-top: 10px;        
+    width: 6%;
+            height: 50%;
+            object-fit: cover;
+    }
+#reactionscore {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 110px;
+    color: black
+}
+#memory {
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 400px;
+    width: 290px; /* Ancho del contenedor */
+height: 60px; /* Altura del contenedor */
+display: flex; 
+transform: translate(-50%, -50%);
+background-color:  hsl(39, 100%, 95%);
+
+            border-radius: 10px;  
+   color: hsl(0, 100%, 67%);
+   font-family: 'Hanken Grotesk', sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+}
+#memoryp {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 10px;
+    color:hsl(39, 100%,70%);
+}
+#memoryscore {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 110px;
+    color: black
+}
+#verbal {
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 470px;
+    width: 290px; /* Ancho del contenedor */
+height: 60px; /* Altura del contenedor */
+display: flex; 
+transform: translate(-50%, -50%);
+background-color:  hsl(166, 100%, 95%);
+
+            border-radius: 10px;  
+   color: hsl(0, 100%, 67%);
+   font-family: 'Hanken Grotesk', sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+}
+#verbalp {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 4px;
+    color:hsl(166, 100%, 37%)
+}
+#verbalscore {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 120px;
+    color: black
+}
+#verbal img {
+    margin-left: 15px;
+    margin-top: 10px;        
+    width: 9%;
+            height: 50%;
+            object-fit: cover;
+
+}
+
+#visual {
+position: absolute;
+margin-left: 1100px;
+margin-top: 540px;
+width: 290px; /* Ancho del contenedor */
+height: 60px; /* Altura del contenedor */
+display: flex; 
+transform: translate(-50%, -50%);
+background-color:  hsl(234, 85%, 95%);
+            
+border-radius: 10px;  
+color: hsl(0, 100%, 67%);
+font-family: 'Hanken Grotesk', sans-serif;
+font-size: 15px;
+font-weight: 700;
+}
+            #visualp {
+                font-family: 'Hanken Grotesk', sans-serif;
+                font-size: 15px;
+                font-weight: 700;
+                margin-left: 4px;
+                color:hsl(234, 85%, 45%);
+            }
+            #visualscore {
+                font-family: 'Hanken Grotesk', sans-serif;
+                font-size: 15px;
+                font-weight: 700;
+                margin-left: 125px;
+                color: black
+            }
+            #visual img {
+                margin-left: 15px;
+                margin-top: 10px;        
+                width: 9%;
+                        height: 50%;
+                        object-fit: cover;
+            }
+    .btn {
+        position: absolute;
+margin-left: 1100px;
+margin-top: 630px;
+width: 220px; /* Ancho del contenedor */
+height: 60px; /* Altura del contenedor */
+display: flex; 
+transform: translate(-50%, -50%);
+border-radius: 20px;
+background-color:  hsl(224, 30%, 27%)
+    }
